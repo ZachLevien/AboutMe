@@ -1,0 +1,8 @@
+.main-nav {
+    background-color: rgb(165, 94, 206);
+    color: black;
+}
+
+.main-nav .pure-menu-link {
+    color: black;
+}
