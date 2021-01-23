@@ -14,6 +14,12 @@
             <p class="subtitle">
               <a href="">press enter</a>
             </p>
+            <section>
+              <div class="block">
+                <b-icon pack="fas" icon="at"></b-icon>
+                <b-icon pack="fab" icon="linkedin-in"></b-icon>
+              </div>
+            </section>
           </div>
         </div>
       </section>
@@ -22,4 +28,19 @@
 </template>
 
 <script>
+// import { SnackbarProgrammatic as Snackbar } from 'buefy';
+
+// export default {
+//   mounted() {
+//     this.open();
+//   },
+//   methods: {
+//     open: () => {
+//       Snackbar.open({
+//         message: 'zlevien@gmail.com',
+//         indefinite: true,
+//       });
+//     },
+//   },
+// };
 </script>
