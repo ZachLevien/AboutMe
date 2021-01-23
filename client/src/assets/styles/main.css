@@ -1,8 +1,41 @@
-.main-nav {
-    background-color: rgb(165, 94, 206);
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    overflow: hidden;
+}
+
+#app, #home-container-aligned {
+    height: 100vh;
+}
+
+#home-container {        
+    background: linear-gradient(0.25turn,#0bd3d3, #f890e7, white);
+}
+
+#home-container-aligned {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-hero .hero-body .container {    
+    font-family: 'Press Start 2P', cursive;    
+}
+
+#home-hero .hero-body .container .title {
+    font-size: 6rem;
     color: black;
 }
 
-.main-nav .pure-menu-link {
+#home-hero .hero-body .container .content {
+    color: gray;
+}
+
+#home-hero .hero-body .container .subtitle a {
     color: black;
+    text-decoration: underline;
+}
+
+#home-hero .hero-body .container .subtitle a:hover{
+    color: gray;
 }
