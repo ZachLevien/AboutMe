@@ -33,7 +33,7 @@ body{
 
 #home-hero .hero-body .container .subtitle a {
     color: black;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 #home-hero .hero-body .container .subtitle a:hover{

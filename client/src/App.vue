@@ -1,18 +1,12 @@
 /* eslint-disable import/no-unresolved */
 <template>
   <div id="app">
-    <!-- <Header/> -->
     <router-view/>
   </div>
 </template>
 
 <script>
-// import Header from '@/components/Header.vue';
-
-// export default {
-//   name: 'App',
-//   components: {
-//     Header,
-//   },
-// };
+export default {
+  name: 'App',
+};
 </script>

@@ -11,13 +11,26 @@
             <h2 class="content">
               Software Engineering, Database Architect, IT Generalist
             </h2>
-            <p class="subtitle">
-              <a href="">press enter</a>
+            <p id="press-enter" class="subtitle">
+              <router-link to="/go">[press enter]</router-link>
             </p>
             <section>
               <div class="block">
-                <b-icon pack="fas" icon="at"></b-icon>
-                <b-icon pack="fab" icon="linkedin-in"></b-icon>
+                <a href="mailto:zlevien@gmail.com">
+                  <b-icon pack="fas" icon="envelope"></b-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/zachlevien/" target="_blank">
+                  <b-icon pack="fab" icon="linkedin" size="is-medium"></b-icon>
+                </a>
+                <a href="https://github.com/ZachLevien" target="_blank">
+                  <b-icon pack="fab" icon="github-square" size="is-medium"></b-icon>
+                </a>
+                <a href="https://twitter.com/ZachLevien" target="_blank">
+                  <b-icon pack="fab" icon="twitter-square" size="is-medium"></b-icon>
+                </a>
+                <a href="https://www.instagram.com/zachlevien/" target="_blank">
+                  <b-icon pack="fab" icon="instagram-square" size="is-medium"></b-icon>
+                </a>
               </div>
             </section>
           </div>
@@ -28,19 +41,7 @@
 </template>
 
 <script>
-// import { SnackbarProgrammatic as Snackbar } from 'buefy';
-
-// export default {
-//   mounted() {
-//     this.open();
-//   },
-//   methods: {
-//     open: () => {
-//       Snackbar.open({
-//         message: 'zlevien@gmail.com',
-//         indefinite: true,
-//       });
-//     },
-//   },
-// };
+export default {
+  name: 'Home',
+};
 </script>

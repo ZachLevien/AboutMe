@@ -16,7 +16,11 @@
     "joi": "^17.3.0",
     "monk": "^7.3.2",
     "morgan": "^1.10.0",
-    "purecss": "^2.0.3"
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "purecss": "^2.0.3",
+    "sequelize": "^6.4.0",
+    "sequelize-cli": "^6.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-eslint": "^4.5.9",
